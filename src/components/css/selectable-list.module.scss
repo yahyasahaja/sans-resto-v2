@@ -1,0 +1,40 @@
+.container {
+  display: block;
+  position: relative;
+  margin: 15px 0;
+
+  .search-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .list {
+    overflow-y: auto;
+    max-height: 200px;
+
+    .selected {
+      background: #00afc6;
+      span {
+        color: white;
+      }
+  
+      &:hover {
+        background: #00afc6;
+        
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .summary {
+    font-size: 10pt;
+    padding: 10px;
+  }
+}
+
+.loading {
+  display: block !important;
+  margin: 30px auto;
+}

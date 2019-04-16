@@ -1,0 +1,26 @@
+.container {
+  display: block;
+
+  .add {
+    display: flex;
+    justify-content: flex-end;
+
+    .fab {
+      position: relative;
+      color: white;
+      top: auto;
+      right: auto;
+    }
+  }
+
+  .no-schedule {    
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.loading {
+  margin: 20px auto;
+  display: block !important;
+}

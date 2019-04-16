@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 50px #d6d6d6;
+  margin: 10px;
+  align-items: center;
+
+  .left {
+    display: block;
+
+    .number {
+      font-size: 20pt;
+    font-weight: bold;
+    }
+
+    .title {
+      font-size: 10pt;
+      font-weight: 600;
+    }
+  }
+
+  .right {
+    display: block;
+    
+    .icon {
+      font-size: 30pt;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.container {
+  display: block;
+
+  .image {
+    margin: 10px 0;
+
+    .close {
+      display: flex;
+      top: 10px;
+      font-size: 20pt;
+      justify-content: flex-end;
+    }
+
+    .img {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      border: 2px dashed #bbbbbb;
+      border-radius: 10px;
+      padding: 10px;
+
+      img {
+        height: 100%;
+        object-fit: contain;
+        object-position: 50% 50%;
+        border-radius: 10px;
+      }
+
+      .placeholder {
+        height: 100%;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .icon {
+          font-size: 50pt;
+        }
+      }
+    }
+  }
+
+  .button {
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+.loading {
+  margin: 20px auto;
+  display: block !important;
+}

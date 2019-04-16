@@ -1,0 +1,42 @@
+.container {
+  display: block;
+  overflow-x: auto;
+
+  .table-wrapper {
+    display: block;
+    position: relative;
+  }
+
+  .filter {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    width: 400;
+
+    .input {
+      margin-left: 8;
+      flex: 1;
+    }
+    .iconButton {
+      padding: 10;
+    }
+    .divider {
+      width: 1;
+      height: 28;
+      margin: 4;
+    }
+  }
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+
+    .numselected {
+      font-size: 12pt;
+    }
+  }
+
+  .selected {
+    background: #ffeaea;
+  }
+}
